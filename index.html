@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>no backspace dot io</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>no backspace dot io</h1>
+        <p class="tagline">impromptu writing tool</p>
+        <nav>
+            <button id="new-page">new</button>
+            <a href="about.html" target="_blank">about</a>
+            <select id="mode-selector">
+                <option value="normal">normal mode</option>
+                <option value="hard">hard mode</option>
+                <option value="extrahard">extra hard mode</option>
+                <option value="suicide">suicide mode</option>
+            </select>
+            <button id="export">export</button>
+            <button id="copy">copy</button>
+            <span id="backspace-counter">Backspaces: 0</span>
+            <a href="https://buy.stripe.com/aEU7uk5d99rI5NK144" target="_blank">donate cash</a>
+            <a href="bitcoin:bc1qhptg9gmkpdejql6e9whnp0ggpmq9zljtgnjrsp" target="_blank">donate btc</a>
+            <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">learn</a>
+        </nav>
+    </header>
+    <div id="container">
+        <textarea id="writing-area" placeholder="Start writing here..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

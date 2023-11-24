@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#writing-area {
+    width: 60%;
+    height: 80%;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+header {
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a, nav button, nav select {
+    margin-right: 10px;
+}
+
+/* Additional styles for markdown buttons */
+.markdown-button {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
