@@ -6,13 +6,32 @@
     <title>no backspace dot io</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZXENKHFTY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZXENKHFTY');
+</script>
 <body>
     <header>
         <h1>no backspace dot io</h1>
         <p class="tagline">impromptu writing tool</p>
         <nav>
-            <button id="new-page">new</button>
             <a href="about.html" target="_blank">about</a>
+            <a href="https://buy.stripe.com/aEU7uk5d99rI5NK144" target="_blank">donate cash</a>
+            <a href="bitcoin:bc1qhptg9gmkpdejql6e9whnp0ggpmq9zljtgnjrsp" target="_blank">donate btc</a>
+            <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">learn</a>
+        </nav>
+        <nav>
+            <a href="https://join.slack.com/t/nobackspacedotio/shared_invite/zt-28mjv038l-RFcZMm5pliTKaOxiumMU9Q">join our slack group</a>
+            <a href="https://twitter.com/heynobackspace">follow on x (formerly twitter)</a>
+            <a href="mailto:hey@nobackspace.io">send us an email (request a feature)</a>
+        </nav>
+        <nav>
+            <button id="new-page">new</button>
             <select id="mode-selector">
                 <option value="normal">normal mode</option>
                 <option value="hard">hard mode</option>
@@ -21,10 +40,7 @@
             </select>
             <button id="export">export</button>
             <button id="copy">copy</button>
-            <span id="backspace-counter">Backspaces: 0</span>
-            <a href="https://buy.stripe.com/aEU7uk5d99rI5NK144" target="_blank">donate cash</a>
-            <a href="bitcoin:bc1qhptg9gmkpdejql6e9whnp0ggpmq9zljtgnjrsp" target="_blank">donate btc</a>
-            <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">learn</a>
+            <span id="backspace-counter">backspaces: 0</span>
         </nav>
     </header>
     <div id="container">
